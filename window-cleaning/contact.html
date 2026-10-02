@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Se kontaktoplysninger og arbejdsområde for Klar Udsigt, og læs hvilke oplysninger du skal bruge til et tilbud på vinduespudsning.">
+    <title>Kontakt og tilbud | Klar Udsigt</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Spring til indhold</a>
+    <!-- Fælles header og navigation -->
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="brand" href="index.html" aria-label="Klar Udsigt – forsiden">
+                <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+                Klar Udsigt
+            </a>
+            <nav class="main-navigation" aria-label="Hovednavigation">
+                <ul>
+                    <li><a href="index.html" >Forside</a></li>
+                    <li><a href="services.html" >Services</a></li>
+                    <li><a href="contact.html" aria-current="page">Kontakt</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main id="main-content">
+        <!-- Introduktion til kontakt -->
+        <section class="page-intro"><div class="container"><p class="eyebrow">Kontakt Klar Udsigt</p><h1>Lad os tage en snak.</h1><p>Har du spørgsmål, eller vil du have et tilbud? Fortæl os om dine vinduer og ønsker.</p></div></section>
+        <!-- Kontaktoplysninger og kontaktformular -->
+        <section class="section">
+            <div class="container contact-layout">
+                <div class="contact-details">
+                    <h2>Du finder os her</h2>
+                    <dl>
+                        <dt>Telefon</dt><dd><a href="tel:+4570123456">70 12 34 56</a></dd>
+                        <dt>E-mail</dt><dd><a href="mailto:hej@klarudsigt.example">hej@klarudsigt.example</a></dd>
+                        <dt>Adresse</dt><dd>Udsigtsvej 14<br>8200 Aarhus N</dd>
+                        <dt>Åbningstider</dt><dd>Mandag–fredag: 08.00–16.00<br>Lørdag og søndag: lukket</dd>
+                        <dt>Vi kører i</dt><dd>Aarhus, Risskov, Viby, Højbjerg og Tilst. Kontakt os gerne om adresser i nærheden.</dd>
+                    </dl>
+                    <!-- Oplysninger, som hjælper med et tilbud -->
+                    <aside class="quote-tips"><h3>Et godt tilbud begynder her</h3><p>Fortæl os gerne:</p><ul><li>Cirka antal vinduer og eventuelle sprosser.</li><li>Boligtype og antal etager.</li><li>Adresse eller postnummer.</li><li>Om du ønsker indvendig eller udvendig pudsning.</li><li>Om du ønsker et enkelt besøg eller en fast aftale.</li></ul></aside>
+                </div>
+                <form class="contact-form" aria-describedby="form-note">
+                    <h2>Fortæl om din opgave</h2>
+                    <p class="small-text" id="form-note">Dette er en demoformular. Oplysninger bliver ikke sendt eller gemt. Kontaktoplysningerne på denne hjemmeside er fiktive.</p>
+                    <div class="form-fields">
+                        <div class="form-field"><label for="name">Navn</label><input type="text" id="name" name="name" autocomplete="name"></div>
+                        <div class="form-field"><label for="email">E-mail</label><input type="email" id="email" name="email" autocomplete="email"></div>
+                        <div class="form-field"><label for="phone">Telefonnummer</label><input type="tel" id="phone" name="phone" autocomplete="tel"></div>
+                        <div class="form-field"><label for="service">Valg af service</label><select id="service" name="service"><option value="">Vælg en service</option value="private">Privat vinduespudsning</option><option value="business">Erhvervsvinduespudsning</option><option value="subscription">Fast abonnementsordning</option><option value="other">Jeg har et spørgsmål</option></select></div>
+                        <div class="form-field form-field-full"><label for="message">Besked</label><textarea id="message" name="message" rows="6" placeholder="Fortæl lidt om dine vinduer, dit postnummer og dine ønsker."></textarea></div>
+                    </div>
+                    <button class="button" type="button" disabled aria-describedby="form-note">Send besked</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Fælles footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div><p class="footer-brand">Klar Udsigt</p><p>Rene ruder. Mere dagslys.</p></div>
+                <div class="footer-contact">
+                    <a href="tel:+4570123456">70 12 34 56</a>
+                    <a href="mailto:hej@klarudsigt.example">hej@klarudsigt.example</a>
+                </div>
+                <nav aria-label="Footernavigation">
+                    <ul class="footer-navigation">
+                        <li><a href="index.html">Forside</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Kontakt</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="copyright">© 2026 Klar Udsigt. Alle rettigheder forbeholdes. Fiktiv virksomhed til et øvelsesprojekt.</div>
+        </div>
+    </footer>
+</body>
+</html>
